@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-trial",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.13.15",
+    "esbuild-plugin-purescript": "^1.1.1",
+    "purescript": "^0.14.5",
+    "spago": "^0.20.3"
+  },
+  "scripts": {
+    "dev": "set NODE_ENV=development & node ./build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murat Özsöyler",
+  "license": "MIT"
+}
